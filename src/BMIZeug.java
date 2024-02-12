@@ -3,13 +3,18 @@ import java.util.Scanner;
 public class BMIZeug {
 	
 	public static void Auf13BMI_InputString() {
-		String input;
+		Scanner sc = new Scanner(System.in);
+		String input = "56 1,50";
+		String arr[];
 		int vorkomma;
 		int nachkomma;
+		
+		sc.close();
 		
 		
 	}
 	public static void Auf13BMI_InputZweiDoubels() {
+
 		/*TODO Ziel ist es, ein Programm für die Ermittlung des so
 			genannten Body-Mass-Index (BMI) zu schreiben.
 			• Schreiben Sie ein Programm, dass das Körpergewicht in Kilogramm und die
