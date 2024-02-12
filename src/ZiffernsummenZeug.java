@@ -36,4 +36,24 @@ public class ZiffernsummenZeug {
 		
 		
 	}
+	public static void Auf20_Zifffernsumme_ausString() {
+		/*TODO
+		 * länge mit .length
+		 * dann in array
+		 * dann jede arrayposition mit der nächsten addieren
+		 */
+		String eingeleseneZahl = "184";
+		int[] arr = new int[eingeleseneZahl.length()];
+		int summe = 0;
+		
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = eingeleseneZahl.charAt(i) - 48;
+		}
+		
+		for(int e : arr) {
+			summe+= e;
+			
+		}
+		System.out.println(summe);
+	}
 }
