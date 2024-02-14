@@ -4,7 +4,9 @@ public class Prog2_1_Vorbereitung {
 //		BMIZeug.Auf13BMI_InputZweiDoubels();
 //		ZiffernsummenZeug.Auf20_Ziffernsumme();
 //		ZiffernsummenZeug.Auf20_Zifffernsumme_ausString();
-		TuermeHanoi.tuermeHanoi();
+//		TuermeHanoi.tuermeHanoi();
+//		WuerfelZeug.Wuerfel();
+		ZeitZeug.ZeitAufruf();
 	
 		
 	}
