@@ -6,7 +6,7 @@ public class ZeitZeug {
 	
 	public static void ZeitAufruf() {
 		ZeitZeug Uhr1 = new ZeitZeug();
-		Uhr1.setzeZeit(0,1,1);
+		Uhr1.setzeZeit(1,1,1);
 //		Ausgabe1(Uhr1);
 		
 		

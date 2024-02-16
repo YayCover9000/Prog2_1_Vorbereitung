@@ -6,7 +6,8 @@ public class Prog2_1_Vorbereitung {
 //		ZiffernsummenZeug.Auf20_Zifffernsumme_ausString();
 //		TuermeHanoi.tuermeHanoi();
 //		WuerfelZeug.Wuerfel();
-		ZeitZeug.ZeitAufruf();
+//		ZeitZeug.ZeitAufruf();
+		NamenZeug.VorUndNachName(3); //Zahl Anzahl Vor-und Nachnamen Paare
 	
 		
 	}
