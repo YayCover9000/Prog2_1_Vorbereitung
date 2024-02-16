@@ -4,7 +4,6 @@ public class NamenZeug {
 	private String nachname;
 	
 	public static void VorUndNachName(int laenge) {
-//		namensListe(laenge);
 		Scanner sc = new Scanner(System.in);
 		NamenZeug[] liste = new NamenZeug[laenge];
 		for(int i = 0; i < liste.length; i++) {
@@ -22,33 +21,7 @@ public class NamenZeug {
 		for(NamenZeug e:liste) {
 			System.out.println(e.toString());
 		}
-//		NamenZeug meinName = new NamenZeug("Paul","Peter");
-//		System.out.println(meinName.toString());
 	}
-	
-//	public static NamenZeug[] namensListe(int laenge) {
-//		Scanner sc = new Scanner(System.in);
-//		NamenZeug[] liste = new NamenZeug[laenge];
-//		for(int i = 0; i < liste.length; i++) {
-//			liste[i] = new NamenZeug();
-//		}
-//		for(int i = 0; i < liste.length; i++) {
-//			liste[i].setVorname(vorname);
-//			liste[i].setNachname(nachname);
-//		}
-//		sc.close();
-//		return liste;
-//	}
-//	public NamenZeug() {
-//		this(null, null);
-//	}
-//	public NamenZeug(String vorname) {
-//		this(vorname,null);
-//	}
-//	public NamenZeug(String vorname, String nachname) {
-//		setVorname(vorname);
-//		setNachname(nachname);
-//	}
 	
 	public void setVorname(String vorname) {
 		this.vorname = vorname;	

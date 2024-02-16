@@ -7,7 +7,6 @@ public class ZeitZeug {
 	public static void ZeitAufruf() {
 		ZeitZeug Uhr1 = new ZeitZeug();
 		Uhr1.setzeZeit(1,1,1);
-//		Ausgabe1(Uhr1);
 		
 		
 		
@@ -15,7 +14,7 @@ public class ZeitZeug {
 	}
 	//Sozusagen Konstruktor....
 	public boolean setzeZeit(int stunde, int minute, int sekunde) {
-		if(stunde < 0 || stunde > 24 || minute < 0 || minute > 60 || sekunde < 0 || sekunde > 100) {
+		if(stunde < 0 || stunde > 24 || minute < 0 || minute > 60 || sekunde < 0 || sekunde > 60) {
 			System.out.println("Fehler");
 			return false;
 			
@@ -48,20 +47,6 @@ public class ZeitZeug {
 		System.out.println(Uhr1.getSekunde());
 	}
 	
-//	public ZeitZeug() {
-//		this(0,0,0);
-//	}
-//	public ZeitZeug(int stunde) {
-//		this(stunde,0,0);
-//	}
-//	public ZeitZeug(int stunde, int minute) {
-//		this(stunde,minute,0);
-//	}
-//	public ZeitZeug(int stunde, int minute, int sekunde) {
-//		setStunde(stunde);
-//		setMinute(minute);
-//		setSekunde(sekunde);
-//	}
 	
 	//Geheimnisprinzip
 	public void setStunde(int stunde) {
