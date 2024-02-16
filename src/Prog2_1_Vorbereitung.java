@@ -7,7 +7,8 @@ public class Prog2_1_Vorbereitung {
 //		TuermeHanoi.tuermeHanoi();
 //		WuerfelZeug.Wuerfel();
 //		ZeitZeug.ZeitAufruf();
-		NamenZeug.VorUndNachName(3); //Zahl Anzahl Vor-und Nachnamen Paare
+		NamenZeug.VorUndNachName(1); //Zahl Anzahl Vor-und Nachnamen Paare
+		TheorieProg1_2.TheoTest();
 	
 		
 	}

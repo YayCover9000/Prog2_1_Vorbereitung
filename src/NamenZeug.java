@@ -18,6 +18,10 @@ public class NamenZeug {
 		for(int i = 0; i < liste.length; i++) {
 			System.out.println(liste[i].toString());
 		}
+		//foreach wie in Aufgabenblatt geforedert
+		for(NamenZeug e:liste) {
+			System.out.println(e.toString());
+		}
 //		NamenZeug meinName = new NamenZeug("Paul","Peter");
 //		System.out.println(meinName.toString());
 	}
@@ -35,16 +39,16 @@ public class NamenZeug {
 //		sc.close();
 //		return liste;
 //	}
-	public NamenZeug() {
-		this(null, null);
-	}
-	public NamenZeug(String vorname) {
-		this(vorname,null);
-	}
-	public NamenZeug(String vorname, String nachname) {
-		setVorname(vorname);
-		setNachname(nachname);
-	}
+//	public NamenZeug() {
+//		this(null, null);
+//	}
+//	public NamenZeug(String vorname) {
+//		this(vorname,null);
+//	}
+//	public NamenZeug(String vorname, String nachname) {
+//		setVorname(vorname);
+//		setNachname(nachname);
+//	}
 	
 	public void setVorname(String vorname) {
 		this.vorname = vorname;	
