@@ -8,9 +8,9 @@ public class Prog2_1_Vorbereitung {
 //		WuerfelZeug.Wuerfel();
 //		ZeitZeug.ZeitAufruf();
 //		NamenZeug.VorUndNachName(1); //Zahl Anzahl Vor-und Nachnamen Paare
-//		TheorieProg1_2.TheoTest();
+		TheorieProg1_2.TheoTest();
 //		EuklidZeug.Euklid();
-		AutoZeug.Auto();
+//		AutoZeug.Auto();
 		
 	
 		
